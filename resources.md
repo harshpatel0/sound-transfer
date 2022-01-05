@@ -18,6 +18,7 @@
 # Online Resources
 String to Binary (The proper way): https://www.geeksforgeeks.org/python-convert-string-to-binary/
 How to read binary: https://www.youtube.com/watch?v=wCQSIub_g7M
+How to generate sound using Python??: https://www.youtube.com/watch?v=UNEAnafrm4U
 
 # Binary Convention
 
