@@ -1,5 +1,5 @@
 
-def to_words(binary_list):
+def to_string(binary_list):
   output = ""
   uppercase = False
 
@@ -64,5 +64,5 @@ def to_binary(string):
 if __name__ == "__main__":
   test_binary = ['01000011', '01100001', '01101011', '01100101']
 
-  print(to_words(test_binary))
+  print(to_string(test_binary))
   print(to_binary("Cake"))
