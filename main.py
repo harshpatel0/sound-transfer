@@ -3,6 +3,7 @@ from typing import ForwardRef
 from volconvert import convert_human_to_nir_values
 from binaryman import to_binary, to_string
 import winsound
+from time import sleep
 
 frequencies = [3_000, 4_000, 5_000]
 
@@ -48,6 +49,9 @@ class App():
     print("Press enter to start sending")
     input()
 
+    for i in range(1,10):
+      print(f"Holding for {i} second(s)")
+
     message_in_binary_list = to_binary(message)
 
     print(message_in_binary_list)
@@ -57,5 +61,13 @@ class App():
         frequency_player(int(bit))
     
     print(f"Sent: {message_in_binary_list}")
+  
+  def receiver():
+
+    """
+      Deal with this shit tomorrow
+    """
+    received_bits = ""
+    input("Press ENTER to start receiving")
 
 App()
